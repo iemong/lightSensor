@@ -1,10 +1,10 @@
 import {Howl, Howler} from 'howler';
 const sleep = new Howl({
-    src: ['./../sound/sleep.mp3'],
+    src: ['./sound/sleep.mp3'],
     loop: true
 })
 const move = new Howl({
-    src: ['./../sound/move.wav']
+    src: ['./sound/move.wav']
 })
 
 

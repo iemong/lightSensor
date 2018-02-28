@@ -4,16 +4,394 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
+.wrapper	docs/css/style.css	/^.wrapper {$/;"	c
 .wrapper	src/scss/module/_wrapper.scss	/^.wrapper {$/;"	c
+Attr	docs/js/script.js	/^            o.pannerAttr = {$/;"	c
+Attr	docs/js/script.js	/^          self._pannerAttr = {$/;"	c
+Attr	docs/js/script.js	/^      self._pannerAttr = {$/;"	c
+Attr	docs/js/script.js	/^  Howl.prototype.pannerAttr = function() {$/;"	c
+AudioContext	docs/js/script.js	/^  var setupAudioContext = function() {$/;"	c
+AudioData	docs/js/script.js	/^  var decodeAudioData = function(arraybuffer, self) {$/;"	c
 BASE_PATH	gulpfile.babel.js	/^const BASE_PATH = '';$/;"	n
+Buffer	docs/js/script.js	/^    _cleanBuffer: function(node) {$/;"	c
+Buffer	docs/js/script.js	/^    _refreshBuffer: function(sound) {$/;"	c
+Buffer	docs/js/script.js	/^  var loadBuffer = function(self) {$/;"	c
+ById	docs/js/script.js	/^    _soundById: function(id) {$/;"	c
 CONFIG	gulpfile.babel.js	/^const CONFIG = '.\/src\/config';$/;"	n
 Cache	gulpfile.babel.js	/^    option.packageCache = {};$/;"	c
+Codecs	docs/js/script.js	/^    _setupCodecs: function() {$/;"	c
+Fade	docs/js/script.js	/^    _stopFade: function(id) {$/;"	c
+FadeInterval	docs/js/script.js	/^    _startFadeInterval: function(sound, from, to, len, id, isGroup) {$/;"	c
+Gain	docs/js/script.js	/^      Howler.masterGain = (typeof Howler.ctx.createGain === 'undefined') ? Howler.ctx.createGainNode() : Howler.ctx.createGain();$/;"	c
 HTDOCS	gulpfile.babel.js	/^const HTDOCS = '.\/docs';$/;"	n
 HTDOCS	gulpfile.babel.js	/^const HTDOCS = '.\/public';$/;"	n
+Howl	docs/js/script.js	/^  var Howl = function(o) {$/;"	c
+Howl	docs/js/script.js	/^  var Howl = function(o) {$/;"	f
+HowlerGlobal	docs/js/script.js	/^  var HowlerGlobal = function() {$/;"	c
+HowlerGlobal	docs/js/script.js	/^  var HowlerGlobal = function() {$/;"	f
+Html5	docs/js/script.js	/^        var playHtml5 = function() {$/;"	c
+Id	docs/js/script.js	/^          var isId = (id === events[i].id);$/;"	c
+Listener	docs/js/script.js	/^    _errorListener: function() {$/;"	c
+Listener	docs/js/script.js	/^    _loadListener: function() {$/;"	c
+LoadQueue	docs/js/script.js	/^              var runLoadQueue = function() {$/;"	c
+MobileAudio	docs/js/script.js	/^    _enableMobileAudio: function() {$/;"	c
+NoReadyState	docs/js/script.js	/^        var loadedNoReadyState = (window && window.ejecta) || (!node.readyState && Howler._navigator.isCocoonJS);$/;"	c
+OS	docs/js/script.js	/^    var iOS = (\/iP(hone|od|ad)\/.test(Howler._navigator && Howler._navigator.platform));$/;"	c
+OldOpera	docs/js/script.js	/^      var isOldOpera = (checkOpera && parseInt(checkOpera[0].split('\/')[1], 10) < 33);$/;"	c
+Panner	docs/js/script.js	/^  var setupPanner = function(sound, type) {$/;"	c
+Queue	docs/js/script.js	/^    _loadQueue: function(event) {$/;"	c
+Resume	docs/js/script.js	/^    _autoResume: function() {$/;"	c
 SRC	gulpfile.babel.js	/^const SRC = '.\/src';$/;"	n
 Sample	src/js/lib/Sample.js	/^export default class Sample {$/;"	c
+Seek	docs/js/script.js	/^            var emitSeek = function() {$/;"	c
+Sound	docs/js/script.js	/^    _inactiveSound: function() {$/;"	c
+Sound	docs/js/script.js	/^  var Sound = function(howl) {$/;"	c
+Sound	docs/js/script.js	/^  var Sound = function(howl) {$/;"	f
+Sound	docs/js/script.js	/^  var loadSound = function(self, buffer) {$/;"	c
+SoundIds	docs/js/script.js	/^    _getSoundIds: function(id) {$/;"	c
+Suspend	docs/js/script.js	/^    _autoSuspend: function() {$/;"	c
+Test	docs/js/script.js	/^        audioTest = (typeof Audio !== 'undefined') ? new Audio() : null;$/;"	c
+Timer	docs/js/script.js	/^      self._suspendTimer = setTimeout(function() {$/;"	c
+Timer	docs/js/script.js	/^    _clearTimer: function(id) {$/;"	c
+Timers	docs/js/script.js	/^      self._endTimers = {};$/;"	c
+Type	docs/js/script.js	/^    var pannerType = (typeof Howler.ctx.createStereoPanner === 'undefined') ? 'spatial' : 'stereo';$/;"	c
+Up	docs/js/script.js	/^    xUp = (typeof xUp !== 'number') ? or[3] : xUp;$/;"	c
+Up	docs/js/script.js	/^    yUp = (typeof yUp !== 'number') ? or[4] : yUp;$/;"	c
+Up	docs/js/script.js	/^    zUp = (typeof zUp !== 'number') ? or[5] : zUp;$/;"	c
+WebAudio	docs/js/script.js	/^        var playWebAudio = function() {$/;"	c
+XhrSend	docs/js/script.js	/^  var safeXhrSend = function(xhr) {$/;"	c
+_codecs	docs/js/script.js	/^      self._codecs = {$/;"	o
+_codecs	docs/js/script.js	/^      self._codecs = {};$/;"	o
+_endTimers	docs/js/script.js	/^      self._endTimers = {};$/;"	o
+_pannerAttr	docs/js/script.js	/^          self._pannerAttr = {$/;"	o
+_pannerAttr	docs/js/script.js	/^      self._pannerAttr = {$/;"	o
+_sprite	docs/js/script.js	/^        parent._sprite = {__default: [0, parent._duration * 1000]};$/;"	o
+_sprite	docs/js/script.js	/^      self._sprite = {__default: [0, self._duration * 1000]};$/;"	o
+action	docs/js/script.js	/^            action: function() {$/;"	m
+action	docs/js/script.js	/^          action: function() {$/;"	m
+action	docs/js/script.js	/^        action: function() {$/;"	m
+addEventListener	docs/js/script.js	/^window.addEventListener('devicelight', function (event) {$/;"	f
+autoResume	docs/js/script.js	/^    _autoResume: function() {$/;"	m
+autoSuspend	docs/js/script.js	/^    _autoSuspend: function() {$/;"	m
+blockquote, q	docs/css/style.css	/^blockquote, q {$/;"	t
+body	docs/css/style.css	/^body {$/;"	t
 cache	gulpfile.babel.js	/^    option.cache        = {};$/;"	o
+catch	docs/js/script.js	/^          } catch (err) {$/;"	f
+catch	docs/js/script.js	/^          } catch(e) {$/;"	f
+catch	docs/js/script.js	/^        try { node.bufferSource.buffer = Howler._scratchBuffer; } catch(e) {}$/;"	f
+catch	docs/js/script.js	/^      } catch (e) {}$/;"	f
+catch	docs/js/script.js	/^      } catch (err) {$/;"	f
+catch	docs/js/script.js	/^    } catch (e) {$/;"	f
+catch	docs/js/script.js	/^    } catch(e) {$/;"	f
+cleanBuffer	docs/js/script.js	/^    _cleanBuffer: function(node) {$/;"	m
+clearTimer	docs/js/script.js	/^    _clearTimer: function(id) {$/;"	m
+codecs	docs/js/script.js	/^    codecs: function(ext) {$/;"	m
 constructor	src/js/lib/Sample.js	/^    constructor (opts = {}) {$/;"	f
+create	docs/js/script.js	/^    create: function() {$/;"	m
+decodeAudioData	docs/js/script.js	/^    Howler.ctx.decodeAudioData(arraybuffer, function(buffer) {$/;"	f
+decodeAudioData	docs/js/script.js	/^  var decodeAudioData = function(arraybuffer, self) {$/;"	f
+define	docs/js/script.js	/^    define([], function() {$/;"	f
+drain	docs/js/script.js	/^    _drain: function() {$/;"	m
+duration	docs/js/script.js	/^    duration: function(id) {$/;"	m
+emit	docs/js/script.js	/^    _emit: function(event, id, msg) {$/;"	m
+emitSeek	docs/js/script.js	/^            var emitSeek = function() {$/;"	f
+enableMobileAudio	docs/js/script.js	/^    _enableMobileAudio: function() {$/;"	m
+ended	docs/js/script.js	/^    _ended: function(sound) {$/;"	m
+errorListener	docs/js/script.js	/^    _errorListener: function() {$/;"	m
+exports	docs/js/script.js	/^(function(){function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s}return e})()({1:[function(require,module,exports){$/;"	o
+fade	docs/js/script.js	/^    fade: function(from, to, len, id) {$/;"	m
+footer, header, hgroup, menu, nav, section	docs/css/style.css	/^footer, header, hgroup, menu, nav, section {$/;"	t
+for	docs/js/script.js	/^            for (var j=0; j<ids.length; j++) {$/;"	f
+for	docs/js/script.js	/^          for (var i=0; i<self._howls.length; i++) {$/;"	f
+for	docs/js/script.js	/^          for (var j=0; j<ids.length; j++) {$/;"	f
+for	docs/js/script.js	/^          for (var j=0; j<self._howls[i]._sounds.length; j++) {$/;"	f
+for	docs/js/script.js	/^        for (i=0; i<events.length; i++) {$/;"	f
+for	docs/js/script.js	/^        for (i=0; i<keys.length; i++) {$/;"	f
+for	docs/js/script.js	/^        for (var i=0; i<id.length; i++) {$/;"	f
+for	docs/js/script.js	/^        for (var i=0; i<self._howls.length; i++) {$/;"	f
+for	docs/js/script.js	/^        for (var i=0; i<self._sounds.length; i++) {$/;"	f
+for	docs/js/script.js	/^      for (i=0; i<Howler._howls.length; i++) {$/;"	f
+for	docs/js/script.js	/^      for (i=0; i<self._sounds.length; i++) {$/;"	f
+for	docs/js/script.js	/^      for (i=self._sounds.length - 1; i>=0; i--) {$/;"	f
+for	docs/js/script.js	/^      for (var i=0; i<data.length; ++i) {$/;"	f
+for	docs/js/script.js	/^      for (var i=0; i<ids.length; i++) {$/;"	f
+for	docs/js/script.js	/^      for (var i=0; i<self._howls.length; i++) {$/;"	f
+for	docs/js/script.js	/^      for (var i=0; i<self._sounds.length; i++) {$/;"	f
+for	docs/js/script.js	/^      for (var i=0; i<self._src.length; i++) {$/;"	f
+for	docs/js/script.js	/^      for (var i=0; i<sounds.length; i++) {$/;"	f
+for	docs/js/script.js	/^      for (var i=events.length-1; i>=0; i--) {$/;"	f
+for	docs/js/script.js	/^      for (var i=self._howls.length-1; i>=0; i--) {$/;"	f
+for	docs/js/script.js	/^    for (var i=0; i<ids.length; i++) {$/;"	f
+for	docs/js/script.js	/^    for (var i=self._howls.length-1; i>=0; i--) {$/;"	f
+function	docs/js/script.js	/^              self._endTimers[sound._id] = function() {$/;"	f
+function	docs/js/script.js	/^              var runLoadQueue = function() {$/;"	f
+function	docs/js/script.js	/^            action: function() {$/;"	f
+function	docs/js/script.js	/^            var emitSeek = function() {$/;"	f
+function	docs/js/script.js	/^          action: function() {$/;"	f
+function	docs/js/script.js	/^          var listener = function() {$/;"	f
+function	docs/js/script.js	/^        action: function() {$/;"	f
+function	docs/js/script.js	/^        source.onended = function() {$/;"	f
+function	docs/js/script.js	/^        var playHtml5 = function() {$/;"	f
+function	docs/js/script.js	/^        var playWebAudio = function() {$/;"	f
+function	docs/js/script.js	/^      var unlock = function() {$/;"	f
+function	docs/js/script.js	/^      xhr.onerror = function() {$/;"	f
+function	docs/js/script.js	/^      xhr.onload = function() {$/;"	f
+function	docs/js/script.js	/^    _autoResume: function() {$/;"	f
+function	docs/js/script.js	/^    _autoSuspend: function() {$/;"	f
+function	docs/js/script.js	/^    _cleanBuffer: function(node) {$/;"	f
+function	docs/js/script.js	/^    _clearTimer: function(id) {$/;"	f
+function	docs/js/script.js	/^    _drain: function() {$/;"	f
+function	docs/js/script.js	/^    _emit: function(event, id, msg) {$/;"	f
+function	docs/js/script.js	/^    _enableMobileAudio: function() {$/;"	f
+function	docs/js/script.js	/^    _ended: function(sound) {$/;"	f
+function	docs/js/script.js	/^    _errorListener: function() {$/;"	f
+function	docs/js/script.js	/^    _getSoundIds: function(id) {$/;"	f
+function	docs/js/script.js	/^    _inactiveSound: function() {$/;"	f
+function	docs/js/script.js	/^    _loadListener: function() {$/;"	f
+function	docs/js/script.js	/^    _loadQueue: function(event) {$/;"	f
+function	docs/js/script.js	/^    _refreshBuffer: function(sound) {$/;"	f
+function	docs/js/script.js	/^    _setup: function() {$/;"	f
+function	docs/js/script.js	/^    _setupCodecs: function() {$/;"	f
+function	docs/js/script.js	/^    _soundById: function(id) {$/;"	f
+function	docs/js/script.js	/^    _startFadeInterval: function(sound, from, to, len, id, isGroup) {$/;"	f
+function	docs/js/script.js	/^    _stopFade: function(id) {$/;"	f
+function	docs/js/script.js	/^    codecs: function(ext) {$/;"	f
+function	docs/js/script.js	/^    create: function() {$/;"	f
+function	docs/js/script.js	/^    duration: function(id) {$/;"	f
+function	docs/js/script.js	/^    fade: function(from, to, len, id) {$/;"	f
+function	docs/js/script.js	/^    init: function() {$/;"	f
+function	docs/js/script.js	/^    init: function(o) {$/;"	f
+function	docs/js/script.js	/^    load: function() {$/;"	f
+function	docs/js/script.js	/^    loop: function() {$/;"	f
+function	docs/js/script.js	/^    mute: function(muted) {$/;"	f
+function	docs/js/script.js	/^    mute: function(muted, id) {$/;"	f
+function	docs/js/script.js	/^    off: function(event, fn, id) {$/;"	f
+function	docs/js/script.js	/^    on: function(event, fn, id, once) {$/;"	f
+function	docs/js/script.js	/^    once: function(event, fn, id) {$/;"	f
+function	docs/js/script.js	/^    pause: function(id) {$/;"	f
+function	docs/js/script.js	/^    play: function(sprite, internal) {$/;"	f
+function	docs/js/script.js	/^    playing: function(id) {$/;"	f
+function	docs/js/script.js	/^    rate: function() {$/;"	f
+function	docs/js/script.js	/^    reset: function() {$/;"	f
+function	docs/js/script.js	/^    return function() {$/;"	f
+function	docs/js/script.js	/^    return function(o) {$/;"	f
+function	docs/js/script.js	/^    seek: function() {$/;"	f
+function	docs/js/script.js	/^    state: function() {$/;"	f
+function	docs/js/script.js	/^    stop: function(id, internal) {$/;"	f
+function	docs/js/script.js	/^    unload: function() {$/;"	f
+function	docs/js/script.js	/^    volume: function() {$/;"	f
+function	docs/js/script.js	/^    volume: function(vol) {$/;"	f
+function	docs/js/script.js	/^    }, function() {$/;"	f
+function	docs/js/script.js	/^  Howl.prototype.init = (function(_super) {$/;"	f
+function	docs/js/script.js	/^  Howl.prototype.orientation = function(x, y, z, id) {$/;"	f
+function	docs/js/script.js	/^  Howl.prototype.pannerAttr = function() {$/;"	f
+function	docs/js/script.js	/^  Howl.prototype.pos = function(x, y, z, id) {$/;"	f
+function	docs/js/script.js	/^  Howl.prototype.stereo = function(pan, id) {$/;"	f
+function	docs/js/script.js	/^  HowlerGlobal.prototype.orientation = function(x, y, z, xUp, yUp, zUp) {$/;"	f
+function	docs/js/script.js	/^  HowlerGlobal.prototype.pos = function(x, y, z) {$/;"	f
+function	docs/js/script.js	/^  HowlerGlobal.prototype.stereo = function(pan) {$/;"	f
+function	docs/js/script.js	/^  Sound.prototype.init = (function(_super) {$/;"	f
+function	docs/js/script.js	/^  Sound.prototype.reset = (function(_super) {$/;"	f
+function	docs/js/script.js	/^  var Howl = function(o) {$/;"	f
+function	docs/js/script.js	/^  var HowlerGlobal = function() {$/;"	f
+function	docs/js/script.js	/^  var Sound = function(howl) {$/;"	f
+function	docs/js/script.js	/^  var decodeAudioData = function(arraybuffer, self) {$/;"	f
+function	docs/js/script.js	/^  var loadBuffer = function(self) {$/;"	f
+function	docs/js/script.js	/^  var loadSound = function(self, buffer) {$/;"	f
+function	docs/js/script.js	/^  var safeXhrSend = function(xhr) {$/;"	f
+function	docs/js/script.js	/^  var setupAudioContext = function() {$/;"	f
+function	docs/js/script.js	/^  var setupPanner = function(sound, type) {$/;"	f
+function	docs/js/script.js	/^(function (global){$/;"	f
+function	docs/js/script.js	/^(function() {$/;"	f
+function	docs/js/script.js	/^(function(){function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s}return e})()({1:[function(require,module,exports){$/;"	f
+function	docs/js/script.js	/^},{}],2:[function(require,module,exports){$/;"	f
+getSoundIds	docs/js/script.js	/^    _getSoundIds: function(id) {$/;"	m
+if	docs/js/script.js	/^                if (!internal) {$/;"	f
+if	docs/js/script.js	/^                if (typeof sound._node.bufferSource.stop === 'undefined') {$/;"	f
+if	docs/js/script.js	/^              if (!self._playLock) {$/;"	f
+if	docs/js/script.js	/^              if (!sound._node.bufferSource) {$/;"	f
+if	docs/js/script.js	/^              if (!sound._pos) {$/;"	f
+if	docs/js/script.js	/^              if (sound && sound._node) {$/;"	f
+if	docs/js/script.js	/^              if (sound._node.bufferSource) {$/;"	f
+if	docs/js/script.js	/^              if (typeof sound._node.bufferSource.stop === 'undefined') {$/;"	f
+if	docs/js/script.js	/^            if (!args[2]) {$/;"	f
+if	docs/js/script.js	/^            if (!self._howls[i]._sounds[j]._paused) {$/;"	f
+if	docs/js/script.js	/^            if (!sound._panner || !sound._panner.pan) {$/;"	f
+if	docs/js/script.js	/^            if (!sound._panner || sound._panner.pan) {$/;"	f
+if	docs/js/script.js	/^            if (!sound._panner) {$/;"	f
+if	docs/js/script.js	/^            if (loop) {$/;"	f
+if	docs/js/script.js	/^            if (node.paused) {$/;"	f
+if	docs/js/script.js	/^            if (pannerType === 'spatial') {$/;"	f
+if	docs/js/script.js	/^            if (self._endTimers[id[i]] || !sound._paused) {$/;"	f
+if	docs/js/script.js	/^            if (self._webAudio && sound._node && !sound._muted) {$/;"	f
+if	docs/js/script.js	/^            if (self._webAudio && sound._node && sound._node.bufferSource) {$/;"	f
+if	docs/js/script.js	/^            if (self._webAudio) {$/;"	f
+if	docs/js/script.js	/^            if (sound && sound._node) {$/;"	f
+if	docs/js/script.js	/^            if (sprite !== '__default') {$/;"	f
+if	docs/js/script.js	/^            if (typeof Promise !== 'undefined' && play instanceof Promise) {$/;"	f
+if	docs/js/script.js	/^            if (typeof test.oncanplaythrough === 'undefined') {$/;"	f
+if	docs/js/script.js	/^            } else if (!internal) {$/;"	f
+if	docs/js/script.js	/^            } else if (sound._node && !sound._muted) {$/;"	f
+if	docs/js/script.js	/^            } else if (sound._node) {$/;"	f
+if	docs/js/script.js	/^          if (!checkIE) {$/;"	f
+if	docs/js/script.js	/^          if (!ext) {$/;"	f
+if	docs/js/script.js	/^          if (!id) {$/;"	f
+if	docs/js/script.js	/^          if (!internal) {$/;"	f
+if	docs/js/script.js	/^          if (!o.pannerAttr) {$/;"	f
+if	docs/js/script.js	/^          if (!self._howls[i]._webAudio) {$/;"	f
+if	docs/js/script.js	/^          if (!self._webAudio && sound._node) {$/;"	f
+if	docs/js/script.js	/^          if (!sound._pos) {$/;"	f
+if	docs/js/script.js	/^          if (events[i].once) {$/;"	f
+if	docs/js/script.js	/^          if (ext) {$/;"	f
+if	docs/js/script.js	/^          if (fn === events[i].fn && isId || !fn && isId) {$/;"	f
+if	docs/js/script.js	/^          if (playing && !self._webAudio) {$/;"	f
+if	docs/js/script.js	/^          if (playing) {$/;"	f
+if	docs/js/script.js	/^          if (self._resumeAfterSuspend) {$/;"	f
+if	docs/js/script.js	/^          if (self._sounds[i]._paused && !self._sounds[i]._ended) {$/;"	f
+if	docs/js/script.js	/^          if (self._webAudio && !sound._muted) {$/;"	f
+if	docs/js/script.js	/^          if (self._webAudio && self._sounds[i]._node) {$/;"	f
+if	docs/js/script.js	/^          if (self._webAudio && sound._node && sound._node.bufferSource) {$/;"	f
+if	docs/js/script.js	/^          if (self._webAudio && sound._node) {$/;"	f
+if	docs/js/script.js	/^          if (self._webAudio) {$/;"	f
+if	docs/js/script.js	/^          if (sound && sound._node) {$/;"	f
+if	docs/js/script.js	/^          if (sound) {$/;"	f
+if	docs/js/script.js	/^          if (sound._interval) {$/;"	f
+if	docs/js/script.js	/^          if (sound._node) {$/;"	f
+if	docs/js/script.js	/^          if (timeout !== Infinity) {$/;"	f
+if	docs/js/script.js	/^          if (typeof node.bufferSource.start === 'undefined') {$/;"	f
+if	docs/js/script.js	/^          if (typeof str !== 'string') {$/;"	f
+if	docs/js/script.js	/^          } else if (sound._node) {$/;"	f
+if	docs/js/script.js	/^        if (!arguments[1]) {$/;"	f
+if	docs/js/script.js	/^        if (!event) {$/;"	f
+if	docs/js/script.js	/^        if (!events[i].id || events[i].id === id || event === 'load') {$/;"	f
+if	docs/js/script.js	/^        if (!ext) {$/;"	f
+if	docs/js/script.js	/^        if (!internal) {$/;"	f
+if	docs/js/script.js	/^        if (!self._howls[i]._webAudio) {$/;"	f
+if	docs/js/script.js	/^        if (!self._sounds[i]._paused) {$/;"	f
+if	docs/js/script.js	/^        if (!self._webAudio) {$/;"	f
+if	docs/js/script.js	/^        if (!self.autoSuspend) {$/;"	f
+if	docs/js/script.js	/^        if (!sounds[i]._paused) {$/;"	f
+if	docs/js/script.js	/^        if (Howler._howls[i]._src === self._src) {$/;"	f
+if	docs/js/script.js	/^        if (Howler.state === 'running') {$/;"	f
+if	docs/js/script.js	/^        if (cnt <= limit) {$/;"	f
+if	docs/js/script.js	/^        if (code !== '0' && code !== '2' && code !== '3') {$/;"	f
+if	docs/js/script.js	/^        if (flag) {$/;"	f
+if	docs/js/script.js	/^        if (id === self._sounds[i]._id) {$/;"	f
+if	docs/js/script.js	/^        if (index >= 0) {$/;"	f
+if	docs/js/script.js	/^        if (isGroup) {$/;"	f
+if	docs/js/script.js	/^        if (node.readyState >= 3 || loadedNoReadyState) {$/;"	f
+if	docs/js/script.js	/^        if (num === 1) {$/;"	f
+if	docs/js/script.js	/^        if (panner) {$/;"	f
+if	docs/js/script.js	/^        if (self._format && self._format[i]) {$/;"	f
+if	docs/js/script.js	/^        if (self._howls[i]._webAudio) {$/;"	f
+if	docs/js/script.js	/^        if (self._muted) {$/;"	f
+if	docs/js/script.js	/^        if (self._sounds[i]._ended) {$/;"	f
+if	docs/js/script.js	/^        if (self._state !== 'loaded') {$/;"	f
+if	docs/js/script.js	/^        if (self._suspendTimer) {$/;"	f
+if	docs/js/script.js	/^        if (self._webAudio) {$/;"	f
+if	docs/js/script.js	/^        if (self.usingWebAudio) {$/;"	f
+if	docs/js/script.js	/^        if (sound && !sound._paused) {$/;"	f
+if	docs/js/script.js	/^        if (sound) {$/;"	f
+if	docs/js/script.js	/^        if (task.event === event) {$/;"	f
+if	docs/js/script.js	/^        if (test.muted) {$/;"	f
+if	docs/js/script.js	/^        if (typeof Audio !== 'undefined') {$/;"	f
+if	docs/js/script.js	/^        if (typeof args[0] === 'boolean') {$/;"	f
+if	docs/js/script.js	/^        if (typeof id === 'undefined') {$/;"	f
+if	docs/js/script.js	/^        if (typeof muted === 'boolean') {$/;"	f
+if	docs/js/script.js	/^        if (typeof pan === 'number') {$/;"	f
+if	docs/js/script.js	/^        if (typeof seek === 'number' && seek >= 0) {$/;"	f
+if	docs/js/script.js	/^        if (typeof self._endTimers[id] !== 'function') {$/;"	f
+if	docs/js/script.js	/^        if (typeof self.ctx.resume === 'function') {$/;"	f
+if	docs/js/script.js	/^        if (typeof source.start === 'undefined') {$/;"	f
+if	docs/js/script.js	/^        if (typeof x === 'number') {$/;"	f
+if	docs/js/script.js	/^        } else if (self._sounds.length) {$/;"	f
+if	docs/js/script.js	/^      if (!Howler.ctx) {$/;"	f
+if	docs/js/script.js	/^      if (!audioTest || typeof audioTest.canPlayType !== 'function') {$/;"	f
+if	docs/js/script.js	/^      if (!self._mobileUnloaded && self.ctx.sampleRate !== 44100) {$/;"	f
+if	docs/js/script.js	/^      if (!self._webAudio && !loop) {$/;"	f
+if	docs/js/script.js	/^      if (!self._webAudio && loop) {$/;"	f
+if	docs/js/script.js	/^      if (!self._webAudio && sound._node && !sound._node.paused && !sound._node.ended && sound._node.currentTime < sound._stop) {$/;"	f
+if	docs/js/script.js	/^      if (!self.autoSuspend || !self.ctx || typeof self.ctx.suspend === 'undefined' || !Howler.usingWebAudio) {$/;"	f
+if	docs/js/script.js	/^      if (!self.ctx || typeof self.ctx.resume === 'undefined' || !Howler.usingWebAudio) {$/;"	f
+if	docs/js/script.js	/^      if (!self.ctx) {$/;"	f
+if	docs/js/script.js	/^      if (!self.noAudio) {$/;"	f
+if	docs/js/script.js	/^      if (!self.usingWebAudio) {$/;"	f
+if	docs/js/script.js	/^      if (!sound) {$/;"	f
+if	docs/js/script.js	/^      if (!url) {$/;"	f
+if	docs/js/script.js	/^      if (Howler._navigator && Howler._navigator.standalone && !safari || Howler._navigator && !Howler._navigator.standalone && !safari) {$/;"	f
+if	docs/js/script.js	/^      if (Howler._scratchBuffer) {$/;"	f
+if	docs/js/script.js	/^      if (Howler.noAudio) {$/;"	f
+if	docs/js/script.js	/^      if (args.length === 0) {$/;"	f
+if	docs/js/script.js	/^      if (buffer && self._sounds.length > 0) {$/;"	f
+if	docs/js/script.js	/^      if (cache && remCache) {$/;"	f
+if	docs/js/script.js	/^      if (fn || id) {$/;"	f
+if	docs/js/script.js	/^      if (id && !sound._paused) {$/;"	f
+if	docs/js/script.js	/^      if (id && !sprite) {$/;"	f
+if	docs/js/script.js	/^      if (parent._state !== 'loaded') {$/;"	f
+if	docs/js/script.js	/^      if (parent._webAudio) {$/;"	f
+if	docs/js/script.js	/^      if (self._autoplay) {$/;"	f
+if	docs/js/script.js	/^      if (self._endTimers[id]) {$/;"	f
+if	docs/js/script.js	/^      if (self._preload) {$/;"	f
+if	docs/js/script.js	/^      if (self._queue.length > 0) {$/;"	f
+if	docs/js/script.js	/^      if (self._sounds.length < limit) {$/;"	f
+if	docs/js/script.js	/^      if (self._state !== 'loaded' || self._playLock) {$/;"	f
+if	docs/js/script.js	/^      if (self._state !== 'loaded') {$/;"	f
+if	docs/js/script.js	/^      if (self._stereo) {$/;"	f
+if	docs/js/script.js	/^      if (self._suspendTimer) {$/;"	f
+if	docs/js/script.js	/^      if (self._webAudio && !loop) {$/;"	f
+if	docs/js/script.js	/^      if (self._webAudio && loop) {$/;"	f
+if	docs/js/script.js	/^      if (self._webAudio) {$/;"	f
+if	docs/js/script.js	/^      if (self.state === 'running' && self._suspendTimer) {$/;"	f
+if	docs/js/script.js	/^      if (self.usingWebAudio && self.ctx && typeof self.ctx.close !== 'undefined') {$/;"	f
+if	docs/js/script.js	/^      if (self.usingWebAudio) {$/;"	f
+if	docs/js/script.js	/^      if (sound && sound._interval) {$/;"	f
+if	docs/js/script.js	/^      if (sound) {$/;"	f
+if	docs/js/script.js	/^      if (sound._loop) {$/;"	f
+if	docs/js/script.js	/^      if (sound._panner) {$/;"	f
+if	docs/js/script.js	/^      if (typeof AudioContext !== 'undefined') {$/;"	f
+if	docs/js/script.js	/^      if (typeof Howler.ctx !== 'undefined' && Howler.ctx && Howler.mobileAutoEnable) {$/;"	f
+if	docs/js/script.js	/^      if (typeof args[0] === 'object') {$/;"	f
+if	docs/js/script.js	/^      if (typeof fn === 'function') {$/;"	f
+if	docs/js/script.js	/^      if (typeof fn === 'number') {$/;"	f
+if	docs/js/script.js	/^      if (typeof id === 'number') {$/;"	f
+if	docs/js/script.js	/^      if (typeof id === 'undefined') {$/;"	f
+if	docs/js/script.js	/^      if (typeof pan === 'number') {$/;"	f
+if	docs/js/script.js	/^      if (typeof rate === 'number') {$/;"	f
+if	docs/js/script.js	/^      if (typeof self._src === 'string') {$/;"	f
+if	docs/js/script.js	/^      if (typeof sprite === 'number') {$/;"	f
+if	docs/js/script.js	/^      if (typeof vol !== 'undefined' && vol >= 0 && vol <= 1) {$/;"	f
+if	docs/js/script.js	/^      if (typeof x === 'number') {$/;"	f
+if	docs/js/script.js	/^      } else if (args.length === 1 || args.length === 2 && typeof args[1] === 'undefined') {$/;"	f
+if	docs/js/script.js	/^      } else if (args.length === 1) {$/;"	f
+if	docs/js/script.js	/^      } else if (args.length === 2) {$/;"	f
+if	docs/js/script.js	/^      } else if (args.length >= 2) {$/;"	f
+if	docs/js/script.js	/^      } else if (event) {$/;"	f
+if	docs/js/script.js	/^      } else if (self._pos) {$/;"	f
+if	docs/js/script.js	/^      } else if (self.state === 'suspended') {$/;"	f
+if	docs/js/script.js	/^      } else if (self.state === 'suspending') {$/;"	f
+if	docs/js/script.js	/^      } else if (typeof sprite === 'string' && self._state === 'loaded' && !self._sprite[sprite]) {$/;"	f
+if	docs/js/script.js	/^      } else if (typeof sprite === 'undefined') {$/;"	f
+if	docs/js/script.js	/^      } else if (typeof webkitAudioContext !== 'undefined') {$/;"	f
+if	docs/js/script.js	/^    if (!o.src || o.src.length === 0) {$/;"	f
+if	docs/js/script.js	/^    if (!self._webAudio) {$/;"	f
+if	docs/js/script.js	/^    if (!self.ctx || !self.ctx.listener) {$/;"	f
+if	docs/js/script.js	/^    if (!sound._paused) {$/;"	f
+if	docs/js/script.js	/^    if (Howler.usingWebAudio) {$/;"	f
+if	docs/js/script.js	/^    if (args.length === 0) {$/;"	f
+if	docs/js/script.js	/^    if (buffer && !self._duration) {$/;"	f
+if	docs/js/script.js	/^    if (cache[url]) {$/;"	f
+if	docs/js/script.js	/^    if (iOS && version && version < 9) {$/;"	f
+if	docs/js/script.js	/^    if (self._state !== 'loaded') {$/;"	f
+if	docs/js/script.js	/^    if (type === 'spatial') {$/;"	f
+if	docs/js/script.js	/^    if (typeof id === 'undefined') {$/;"	f
+if	docs/js/script.js	/^    if (typeof x === 'number') {$/;"	f
+if	docs/js/script.js	/^    if (value > 2) {$/;"	f
+if	docs/js/script.js	/^    } else if (args.length === 1) {$/;"	f
+if	docs/js/script.js	/^    } else if (args.length === 2) {$/;"	f
+if	docs/js/script.js	/^  if (typeof define === 'function' && define.amd) {$/;"	f
+if	docs/js/script.js	/^  if (typeof exports !== 'undefined') {$/;"	f
+if	docs/js/script.js	/^  if (typeof window !== 'undefined') {$/;"	f
+if	docs/js/script.js	/^  } else if (typeof global !== 'undefined') { \/\/ Add to global in Node.js (for testing, etc).$/;"	f
 if	src/js/script.js	/^            if(vallue === event.value) {$/;"	f
 if	src/js/script.js	/^        if (flag && counter > 30) {$/;"	f
 if	src/js/script.js	/^        if (flag && counter > 60) {$/;"	f
@@ -23,7 +401,70 @@ if	src/js/script.js	/^    if(value 20) {$/;"	f
 if	src/js/script.js	/^    if(value > 10) {$/;"	f
 if	src/js/script.js	/^    if(value > 2) {$/;"	f
 if	src/js/script.js	/^    if(value > 20) {$/;"	f
+inactiveSound	docs/js/script.js	/^    _inactiveSound: function() {$/;"	m
+init	docs/js/script.js	/^    init: function() {$/;"	m
+init	docs/js/script.js	/^    init: function(o) {$/;"	m
+listener	docs/js/script.js	/^          var listener = function() {$/;"	f
+load	docs/js/script.js	/^    load: function() {$/;"	m
+loadBuffer	docs/js/script.js	/^  var loadBuffer = function(self) {$/;"	f
+loadListener	docs/js/script.js	/^    _loadListener: function() {$/;"	m
+loadQueue	docs/js/script.js	/^    _loadQueue: function(event) {$/;"	m
+loadSound	docs/js/script.js	/^  var loadSound = function(self, buffer) {$/;"	f
+loop	docs/js/script.js	/^    loop: function() {$/;"	m
+mute	docs/js/script.js	/^    mute: function(muted) {$/;"	m
+mute	docs/js/script.js	/^    mute: function(muted, id) {$/;"	m
+off	docs/js/script.js	/^    off: function(event, fn, id) {$/;"	m
+ol, ul	docs/css/style.css	/^ol, ul {$/;"	t
+on	docs/js/script.js	/^    on: function(event, fn, id, once) {$/;"	m
 on	gulpfile.babel.js	/^            .on("error", function(err) {$/;"	f
+once	docs/js/script.js	/^    once: function(event, fn, id) {$/;"	m
+onended	docs/js/script.js	/^        source.onended = function() {$/;"	f
+onerror	docs/js/script.js	/^      xhr.onerror = function() {$/;"	f
+onload	docs/js/script.js	/^      xhr.onload = function() {$/;"	f
+orientation	docs/js/script.js	/^  Howl.prototype.orientation = function(x, y, z, id) {$/;"	f
+orientation	docs/js/script.js	/^  HowlerGlobal.prototype.orientation = function(x, y, z, xUp, yUp, zUp) {$/;"	f
 packageCache	gulpfile.babel.js	/^    option.packageCache = {};$/;"	o
+pannerAttr	docs/js/script.js	/^            o.pannerAttr = {$/;"	o
+pannerAttr	docs/js/script.js	/^  Howl.prototype.pannerAttr = function() {$/;"	f
+pause	docs/js/script.js	/^    pause: function(id) {$/;"	m
+play	docs/js/script.js	/^    play: function(sprite, internal) {$/;"	m
+playHtml5	docs/js/script.js	/^        var playHtml5 = function() {$/;"	f
+playWebAudio	docs/js/script.js	/^        var playWebAudio = function() {$/;"	f
+playing	docs/js/script.js	/^    playing: function(id) {$/;"	m
+pos	docs/js/script.js	/^  Howl.prototype.pos = function(x, y, z, id) {$/;"	f
+pos	docs/js/script.js	/^  HowlerGlobal.prototype.pos = function(x, y, z) {$/;"	f
+prototype	docs/js/script.js	/^  Howl.prototype = {$/;"	o
+prototype	docs/js/script.js	/^  HowlerGlobal.prototype = {$/;"	o
+prototype	docs/js/script.js	/^  Sound.prototype = {$/;"	o
+rate	docs/js/script.js	/^    rate: function() {$/;"	m
+refreshBuffer	docs/js/script.js	/^    _refreshBuffer: function(sound) {$/;"	m
+reset	docs/js/script.js	/^    reset: function() {$/;"	m
+runLoadQueue	docs/js/script.js	/^              var runLoadQueue = function() {$/;"	f
+safeXhrSend	docs/js/script.js	/^  var safeXhrSend = function(xhr) {$/;"	f
+seek	docs/js/script.js	/^    seek: function() {$/;"	m
 server	gulpfile.babel.js	/^        server: {$/;"	o
+setInterval	docs/js/script.js	/^      sound._interval = setInterval(function() {$/;"	f
+setTimeout	docs/js/script.js	/^            setTimeout(function() {$/;"	f
+setTimeout	docs/js/script.js	/^          setTimeout(function(fn) {$/;"	f
+setTimeout	docs/js/script.js	/^      self._suspendTimer = setTimeout(function() {$/;"	f
+setup	docs/js/script.js	/^    _setup: function() {$/;"	m
+setupAudioContext	docs/js/script.js	/^  var setupAudioContext = function() {$/;"	f
+setupCodecs	docs/js/script.js	/^    _setupCodecs: function() {$/;"	m
+setupPanner	docs/js/script.js	/^  var setupPanner = function(sound, type) {$/;"	f
+soundById	docs/js/script.js	/^    _soundById: function(id) {$/;"	m
+startFadeInterval	docs/js/script.js	/^    _startFadeInterval: function(sound, from, to, len, id, isGroup) {$/;"	m
+state	docs/js/script.js	/^    state: function() {$/;"	m
+stereo	docs/js/script.js	/^  Howl.prototype.stereo = function(pan, id) {$/;"	f
+stereo	docs/js/script.js	/^  HowlerGlobal.prototype.stereo = function(pan) {$/;"	f
+stop	docs/js/script.js	/^    stop: function(id, internal) {$/;"	m
+stopFade	docs/js/script.js	/^    _stopFade: function(id) {$/;"	m
+table	docs/css/style.css	/^table {$/;"	t
+then	docs/js/script.js	/^        self.ctx.resume().then(function() {$/;"	f
+then	docs/js/script.js	/^        self.ctx.suspend().then(function() {$/;"	f
 tick	src/js/script.js	/^function tick() {$/;"	f
+time, mark, audio, video	docs/css/style.css	/^time, mark, audio, video {$/;"	t
+unload	docs/js/script.js	/^    unload: function() {$/;"	m
+unlock	docs/js/script.js	/^      var unlock = function() {$/;"	f
+volume	docs/js/script.js	/^    volume: function() {$/;"	m
+volume	docs/js/script.js	/^    volume: function(vol) {$/;"	m
+window	docs/js/script.js	/^}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})$/;"	o

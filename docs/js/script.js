@@ -2911,11 +2911,11 @@
 var _howler = require('howler');
 
 var sleep = new _howler.Howl({
-    src: ['./../sound/sleep.mp3'],
+    src: ['./sound/sleep.mp3'],
     loop: true
 });
 var move = new _howler.Howl({
-    src: ['./../sound/move.wav']
+    src: ['./sound/move.wav']
 });
 
 var flag = false;
