@@ -1,0 +1,28 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+.wrapper	src/scss/module/_wrapper.scss	/^.wrapper {$/;"	c
+BASE_PATH	gulpfile.babel.js	/^const BASE_PATH = '';$/;"	n
+CONFIG	gulpfile.babel.js	/^const CONFIG = '.\/src\/config';$/;"	n
+Cache	gulpfile.babel.js	/^    option.packageCache = {};$/;"	c
+HTDOCS	gulpfile.babel.js	/^const HTDOCS = '.\/public';$/;"	n
+SRC	gulpfile.babel.js	/^const SRC = '.\/src';$/;"	n
+Sample	src/js/lib/Sample.js	/^export default class Sample {$/;"	c
+cache	gulpfile.babel.js	/^    option.cache        = {};$/;"	o
+constructor	src/js/lib/Sample.js	/^    constructor (opts = {}) {$/;"	f
+if	src/js/script.js	/^            if(vallue === event.value) {$/;"	f
+if	src/js/script.js	/^        if (flag && counter > 30) {$/;"	f
+if	src/js/script.js	/^        if (flag && counter > 60) {$/;"	f
+if	src/js/script.js	/^        if (flag) {$/;"	f
+if	src/js/script.js	/^        if(flag) {$/;"	f
+if	src/js/script.js	/^    if(value 20) {$/;"	f
+if	src/js/script.js	/^    if(value > 10) {$/;"	f
+if	src/js/script.js	/^    if(value > 2) {$/;"	f
+if	src/js/script.js	/^    if(value > 20) {$/;"	f
+on	gulpfile.babel.js	/^            .on("error", function(err) {$/;"	f
+packageCache	gulpfile.babel.js	/^    option.packageCache = {};$/;"	o
+server	gulpfile.babel.js	/^        server: {$/;"	o
+tick	src/js/script.js	/^function tick() {$/;"	f
