@@ -8,6 +8,7 @@
 BASE_PATH	gulpfile.babel.js	/^const BASE_PATH = '';$/;"	n
 CONFIG	gulpfile.babel.js	/^const CONFIG = '.\/src\/config';$/;"	n
 Cache	gulpfile.babel.js	/^    option.packageCache = {};$/;"	c
+HTDOCS	gulpfile.babel.js	/^const HTDOCS = '.\/docs';$/;"	n
 HTDOCS	gulpfile.babel.js	/^const HTDOCS = '.\/public';$/;"	n
 SRC	gulpfile.babel.js	/^const SRC = '.\/src';$/;"	n
 Sample	src/js/lib/Sample.js	/^export default class Sample {$/;"	c
